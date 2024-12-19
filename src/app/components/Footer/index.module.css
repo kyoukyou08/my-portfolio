@@ -1,0 +1,94 @@
+/*フッター*/
+.footer {
+  background-color: rgba(17, 54, 87, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer ul {
+  color: rgba(226, 226, 226, 1);
+  font-size: 3rem;
+  list-style: none;
+  line-height: 4rem;
+}
+
+.footer li {
+  transition: all 0.5s 0s ease;
+}
+
+.footer li:hover {
+  scale: 1.05;
+}
+
+.link_list {
+  width: 30%;
+}
+
+.profile_position {
+  display: flex;
+  flex-direction: column;
+  color: rgba(226, 226, 226, 1);
+  border-radius: 2rem;
+  background-color: rgba(50, 87, 116, 1);
+  padding: 1rem 3rem;
+}
+
+.profile {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 0 1rem;
+}
+
+.avatar_image {
+  width: 160px;
+  height: 160px;
+}
+
+.profile_text {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+}
+
+.profile_text p {
+  text-wrap: wrap;
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  margin: 2rem 3rem;
+}
+
+.sns p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.sns span {
+  height: 40px;
+  width: 4px;
+  background-color: #fff;
+}
+
+.sns_image {
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s 0s ease;
+}
+
+.sns_image:hover {
+  scale: 1.05;
+}
