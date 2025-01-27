@@ -1,6 +1,5 @@
 import styles from "./index.module.css";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Story() {
   return (

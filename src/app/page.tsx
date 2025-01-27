@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Link from "next/link";
 import Skills from "./components/Skills";
 import Story from "./components/Story";
 import Works from "./components/Works";
